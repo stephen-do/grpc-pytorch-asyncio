@@ -29,7 +29,6 @@ class InferenceService(InferenceServer):
 async def serve():
     server = grpc.aio.server()
     add_InferenceServerServicer_to_server(InferenceService(), server)
-    # using ip v6
     address = "localhost:5001"
     server.add_insecure_port(address)
     logging.info(f"[*] Starting server on {address}")

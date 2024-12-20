@@ -1,5 +1,4 @@
 // inference.proto
-
 syntax = "proto3";
 
 service InferenceServer {

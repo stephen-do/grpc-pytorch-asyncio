@@ -1,6 +1,5 @@
 import torchvision.transforms as T
 import torch
-
 from typing import List
 from PIL import Image
 from torchvision.models import resnet34, ResNet34_Weights

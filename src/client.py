@@ -1,6 +1,5 @@
 import asyncio
 from io import BytesIO
-
 import grpc
 from PIL import Image
 

@@ -8,6 +8,14 @@ Project for demonstrate the application of gRPC to deploy deep learning model us
 
 ## Installation
 
+Create virtual environment
+
+```bash
+  python -m venv .venv
+  cd .venv\Scripts
+  activate
+```
+
 Install torch and torchvision
 
 ```bash
