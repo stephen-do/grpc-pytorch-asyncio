@@ -1,0 +1,16 @@
+// inference.proto
+
+syntax = "proto3";
+
+service InferenceServer {
+  rpc inference (InferenceRequest) returns (InferenceResponse) {}
+
+}
+
+message InferenceRequest {
+  repeated bytes image = 1;
+}
+
+message InferenceResponse {
+  repeated uint32 prediction = 1;
+}
